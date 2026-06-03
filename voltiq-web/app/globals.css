@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #030640;
+  --bg-2: #0d0d0d;
+  --primary: #141dd9;
+  --primary-2: #243cbf;
+  --accent: #91aaf2;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, var(--bg), var(--bg-2));
+  color: white;
+}
